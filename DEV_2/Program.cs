@@ -6,18 +6,24 @@ namespace PrintNumbers
     {
         static void Main(string[] args)
         {
-			String output;
             for (int i=0; i<=100; i++)
             {
-                if (i % 3 == 0)
+                if (i % 3 == 0 && i % 5 == 0)
 				{
-					output = "3*" + (i / 3).ToString();
+                    Console.WriteLine("Tutti-Frutti");
+                    continue;
 				}
-				else
+				if (i % 3 == 0)
 				{
-					output = i.ToString();
+                    Console.WriteLine("Tutti");
+                    continue;
 				}
-				Console.WriteLine(output);
+                if (i % 5 == 0)
+                {
+                    Console.WriteLine("Frutti");
+                    continue;
+                }
+                Console.WriteLine(i.ToString());
             }
             Console.ReadKey();
         }
