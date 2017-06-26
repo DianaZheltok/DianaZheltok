@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов, чтобы изменить сведения,
 // связанные со сборкой.
-[assembly: AssemblyTitle("task_DEV-1")]
+[assembly: AssemblyTitle("task_DEV-2")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("task_DEV-1")]
+[assembly: AssemblyProduct("task_DEV-2")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий GUID служит для идентификации библиотеки типов, если этот проект будет видимым для COM
-[assembly: Guid("f31df68b-ebaa-42ed-80a2-45857602a3e4")]
+[assembly: Guid("d5ec5610-b618-4190-b8c2-5d5eeadf1f1e")]
 
 // Сведения о версии сборки состоят из следующих четырех значений:
 //

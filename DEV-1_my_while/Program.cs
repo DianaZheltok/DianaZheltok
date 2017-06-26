@@ -1,25 +1,32 @@
-using System;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace PrintNumbers
+namespace ChangeNumbers
 {
     class Program
     {
         static void Main(string[] args)
         {
-			String output;
-            for (int i=0; i<=100; i++)
+            int i = 0;
+            while ( i <= 100)
             {
+                String num = i.ToString();
                 if (i % 3 == 0)
-				{
-					output = "3*" + (i / 3).ToString();
-				}
-				else
-				{
-					output = i.ToString();
-				}
-				Console.WriteLine(output);
+                {
+                    Console.Write("3*" + i / 3);
+                }
+                else
+                {
+                    Console.Write(" " + num + " ");               
+                }
+                i++;
             }
+            Console.Write("\nPress any key...");
             Console.ReadKey();
         }
     }
+
 }
